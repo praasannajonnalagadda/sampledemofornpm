@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["progress/progress.component.d.ts"],"sourcesContent":["export declare class ProgressComponent {\n    title: string;\n}\n"],"file":"progress.component.d.ts"}
