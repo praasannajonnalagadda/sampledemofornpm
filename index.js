@@ -1,0 +1,1 @@
+exports.ProgressModule = require('./dist/progress.module').ProgressModule;

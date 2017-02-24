@@ -3,18 +3,21 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
-import { AppComponent } from './app.component';
+import { ProgressComponent } from './progress.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    ProgressComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
+  exports :[
+    ProgressComponent
+  ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [ProgressComponent]
 })
-export class AppModule { }
+export class ProgressModule { }
